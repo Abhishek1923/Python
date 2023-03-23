@@ -12,5 +12,5 @@ after_tip = float(bill)*(int(tip)/100+1)
 
 people = input("How many people to split the bill? ")
 res = round(after_tip/int(people), 2)
-
+# res="{:.2f}".format(after_tip/int(people)) //we may round using this method
 print(f"Each person should pay: ${res}")
